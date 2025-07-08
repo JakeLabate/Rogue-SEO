@@ -216,6 +216,7 @@ const urls = [
     "https://iddi.com/about/team/vaiva-deltuvaite-thomas",
     "https://iddi.com/about/team/vincent-staggs",
 
+
     // careers
     "https://iddi.com/careers",
     "https://iddi.com/careers/senior-system-validation-specialist",
