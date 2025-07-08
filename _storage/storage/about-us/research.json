@@ -1,0 +1,91 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://iddi.com/about-us/research#WebPage",
+      "url": "https://iddi.com/about-us/research",
+      "name": "Research",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://iddi.com#WebSite",
+        "url": "https://iddi.com",
+        "name": "IDDI"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://iddi.com/about-us/research#BreadcrumbList",
+      "url": "https://iddi.com/about-us/research",
+      "name": "Research",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "@id": "https://iddi.com/about-us#BreadCrumbList_Item",
+          "url": "https://iddi.com/about-us",
+          "item": "https://iddi.com/about-us",
+          "name": "About Us",
+          "position": 1
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://iddi.com/about-us/research#BreadCrumbList_Item",
+          "url": "https://iddi.com/about-us/research",
+          "item": "https://iddi.com/about-us/research",
+          "name": "Research",
+          "position": 2
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://iddi.com#WebSite",
+      "url": "https://iddi.com",
+      "name": "IDDI"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://iddi.com#Organization",
+      "url": "https://iddi.com",
+      "name": "IDDI",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://iddi.com#ImageObjectLogo",
+        "url": "https://mva.org/wp-content/uploads/2020/01/iddi-logo.png",
+        "contentUrl": "https://mva.org/wp-content/uploads/2020/01/iddi-logo.png",
+        "name": "IDDI Logo",
+        "caption": "IDDI Logo"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/iddi",
+        "https://twitter.com/IDDI_Official",
+        "https://www.facebook.com/profile.php?id=100052568724769",
+        "https://www.youtube.com/channel/UC4Ef4_yf5Wurco-2YiVguqg"
+      ]
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://iddi.com#Brand",
+      "url": "https://iddi.com",
+      "name": "IDDI",
+      "sameAs": [
+        "https://www.linkedin.com/company/iddi",
+        "https://twitter.com/IDDI_Official",
+        "https://www.facebook.com/profile.php?id=100052568724769",
+        "https://www.youtube.com/channel/UC4Ef4_yf5Wurco-2YiVguqg"
+      ]
+    },
+    {
+      "@type": "AggregateRating",
+      "@id": "https://iddi.com#AggregateRating",
+      "url": "https://iddi.com",
+      "name": "IDDI",
+      "ratingValue": 1,
+      "ratingCount": 1,
+      "itemReviewed": {
+        "@type": "Organization",
+        "@id": "https://iddi.com#Organization"
+      }
+    }
+  ]
+}

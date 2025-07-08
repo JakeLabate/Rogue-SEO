@@ -1,0 +1,111 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://iddi.com/about-us/events/iddi-at-clinical-data-management-innovation-2025#WebPage",
+      "url": "https://iddi.com/about-us/events/iddi-at-clinical-data-management-innovation-2025",
+      "name": "Iddi at Clinical Data Management Innovation 2025",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://iddi.com#WebSite",
+        "url": "https://iddi.com",
+        "name": "IDDI"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://iddi.com/about-us/events/iddi-at-clinical-data-management-innovation-2025#BreadcrumbList",
+      "url": "https://iddi.com/about-us/events/iddi-at-clinical-data-management-innovation-2025",
+      "name": "Iddi at Clinical Data Management Innovation 2025",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "@id": "https://iddi.com/about-us#BreadCrumbList_Item",
+          "url": "https://iddi.com/about-us",
+          "item": "https://iddi.com/about-us",
+          "name": "About Us",
+          "position": 1
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://iddi.com/about-us/events#BreadCrumbList_Item",
+          "url": "https://iddi.com/about-us/events",
+          "item": "https://iddi.com/about-us/events",
+          "name": "Events",
+          "position": 2
+        },
+        {
+          "@type": "ListItem",
+          "@id": "https://iddi.com/about-us/events/iddi-at-clinical-data-management-innovation-2025#BreadCrumbList_Item",
+          "url": "https://iddi.com/about-us/events/iddi-at-clinical-data-management-innovation-2025",
+          "item": "https://iddi.com/about-us/events/iddi-at-clinical-data-management-innovation-2025",
+          "name": "Iddi at Clinical Data Management Innovation 2025",
+          "position": 3
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://iddi.com#WebSite",
+      "url": "https://iddi.com",
+      "name": "IDDI"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://iddi.com#Organization",
+      "url": "https://iddi.com",
+      "name": "IDDI",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://iddi.com#ImageObjectLogo",
+        "url": "https://mva.org/wp-content/uploads/2020/01/iddi-logo.png",
+        "contentUrl": "https://mva.org/wp-content/uploads/2020/01/iddi-logo.png",
+        "name": "IDDI Logo",
+        "caption": "IDDI Logo"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/iddi",
+        "https://twitter.com/IDDI_Official",
+        "https://www.facebook.com/profile.php?id=100052568724769",
+        "https://www.youtube.com/channel/UC4Ef4_yf5Wurco-2YiVguqg"
+      ]
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://iddi.com#Brand",
+      "url": "https://iddi.com",
+      "name": "IDDI",
+      "sameAs": [
+        "https://www.linkedin.com/company/iddi",
+        "https://twitter.com/IDDI_Official",
+        "https://www.facebook.com/profile.php?id=100052568724769",
+        "https://www.youtube.com/channel/UC4Ef4_yf5Wurco-2YiVguqg"
+      ]
+    },
+    {
+      "@type": "AggregateRating",
+      "@id": "https://iddi.com#AggregateRating",
+      "url": "https://iddi.com",
+      "name": "IDDI",
+      "ratingValue": 1,
+      "ratingCount": 1,
+      "itemReviewed": {
+        "@type": "Organization",
+        "@id": "https://iddi.com#Organization"
+      }
+    },
+    {
+      "@type": "Event",
+      "@id": "https://iddi.com/about-us/events/iddi-at-clinical-data-management-innovation-2025#Event",
+      "url": "https://iddi.com/about-us/events/iddi-at-clinical-data-management-innovation-2025",
+      "name": "Iddi at Clinical Data Management Innovation 2025",
+      "isPartOf": {
+        "@type": "Collection",
+        "@id": "https://iddi.com/about-us/events#Collection",
+        "url": "https://iddi.com/about-us/events",
+        "name": "IDDI Events"
+      }
+    }
+  ]
+}
